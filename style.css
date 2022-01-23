@@ -1,0 +1,38 @@
+body {
+    background-color: lightgray;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.7rem;
+    text-decoration: underline;
+}
+
+label {
+    font-size: 1.7rem;
+}
+
+input {
+    font-size: 18px;
+}
+
+button {
+    width: 160px;
+    height: 40px;
+    text-align: center;
+    font-size: 1.3rem;
+    background-color: white;
+}
+
+.infoInput {
+    display: none;
+}
+
+.bookContainer {
+    margin: 0 auto;
+    margin-top: 1rem;
+    width: 880px;
+    height: 1000px;
+    background-color: aquamarine;
+    border: 3px solid turquoise;
+}
