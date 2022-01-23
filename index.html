@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Odin Objects Library</title>
+    </head>
+    <body>
+        <h1>ODIN LIBRARY</h1>
+        <button class="addBkBtn">+ Add a book</button>
+
+        <div class="infoInput">
+            <label for="title">Book Title:</label>
+
+            <input
+                type="text"
+                id="title"
+                name="title"
+                required
+                maxlength="40"
+                textarea
+                style="height: 26px; width: 240px"
+                style="font-size: 19pt"
+            />
+
+            <label for="author">Book Author:</label>
+
+            <input
+                type="text"
+                id="author"
+                name="author"
+                required
+                maxlength="30"
+                textarea
+                style="height: 26px; width: 180px"
+                font-size:
+                24px;
+            />
+
+            <label for="author"># of Pages:</label>
+            <input
+                type="text"
+                id="pages"
+                name="pages"
+                required
+                maxlength="5"
+                textarea
+                style="height: 26px; width: 40px"
+                font-size:
+                24px;
+            />
+
+            <label for="haveRead">Have you read it?:</label>
+
+            <input
+                type="radio"
+                id="haveRead"
+                name="haveRead"
+                textarea
+                style="height: 26px; width: 40px"
+                font-size:
+                24px;
+                value="Yes"
+            />
+            <label for="Yes">Yes</label>
+
+            <input
+                type="radio"
+                id="haveRead"
+                name="haveRead"
+                textarea
+                style="height: 26px; width: 40px"
+                font-size:
+                24px;
+                value="No"
+            />
+            <label for="No">No</label>
+            <button>Put in Library &#8595</button>
+        </div>
+
+        <div class="bookContainer"></div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
