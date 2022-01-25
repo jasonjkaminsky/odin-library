@@ -8,6 +8,11 @@ h1 {
     text-decoration: underline;
 }
 
+h2 {
+    text-align: center;
+    color: yellow;
+}
+
 label {
     font-size: 1.7rem;
 }
@@ -28,11 +33,23 @@ button {
     display: none;
 }
 
-.bookContainer {
+#bookLibrary {
     margin: 0 auto;
     margin-top: 1rem;
     width: 880px;
     height: 1000px;
     background-color: aquamarine;
     border: 3px solid turquoise;
+}
+
+card-holder {
+    width: 100px;
+    height: 70px;
+    background-color: yellow;
+}
+
+card-front {
+    width: 100px;
+    height: 70px;
+    background-color: yellow;
 }
