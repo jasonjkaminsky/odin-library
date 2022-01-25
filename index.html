@@ -14,10 +14,11 @@
         <div class="infoInput">
             <label for="title">Book Title:</label>
 
+
             <input
                 type="text"
-                id="title"
-                name="title"
+                id="input-title"
+                name="input-title"
                 required
                 maxlength="40"
                 textarea
@@ -29,8 +30,8 @@
 
             <input
                 type="text"
-                id="author"
-                name="author"
+                id="input-author"
+                name="input-author"
                 required
                 maxlength="30"
                 textarea
@@ -42,8 +43,8 @@
             <label for="author"># of Pages:</label>
             <input
                 type="text"
-                id="pages"
-                name="pages"
+                id="input-pages"
+                name="input-pages"
                 required
                 maxlength="5"
                 textarea
@@ -56,8 +57,8 @@
 
             <input
                 type="radio"
-                id="haveRead"
-                name="haveRead"
+                id="input-haveRead"
+                name="input-haveRead"
                 textarea
                 style="height: 26px; width: 40px"
                 font-size:
@@ -68,8 +69,8 @@
 
             <input
                 type="radio"
-                id="haveRead"
-                name="haveRead"
+                id="input-haveRead"
+                name="input-haveRead"
                 textarea
                 style="height: 26px; width: 40px"
                 font-size:
@@ -77,10 +78,12 @@
                 value="No"
             />
             <label for="No">No</label>
-            <button>Put in Library &#8595</button>
+            <button type = "submit" class = "addBtn" >Put in Library &#8595</button>
         </div>
 
-        <div class="bookContainer"></div>
+        <div id="bookLibrary">
+             <h2>Library</h2>
+        </div>
 
         <script src="script.js"></script>
     </body>
